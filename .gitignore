@@ -4,3 +4,7 @@
 
 /strength-repository/.vs/
 /.vs
+/strength-repository/strength-repository.API/bin/
+/strength-repository/strength-repository.API/obj/
+/strength-repository/strength-repository.API/obj/Debug/net6.0/
+/strength-repository/strength-repository.web/node_modules
