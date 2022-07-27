@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strength-repository.API", "strength-repository.API\strength-repository.API.csproj", "{0795D706-EB84-4194-BD93-04BF25FE4B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strength-repository.API", "strength-repository.API\strength-repository.API.csproj", "{0795D706-EB84-4194-BD93-04BF25FE4B1D}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "strength-repository.web", "strength-repository.WEB\strength-repository.web.esproj", "{3D96F625-24D0-4814-B9E7-3F2F3279D8AA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "strength-repository.Database", "strength-repository.Database\strength-repository.Database.sqlproj", "{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,12 @@ Global
 		{3D96F625-24D0-4814-B9E7-3F2F3279D8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D96F625-24D0-4814-B9E7-3F2F3279D8AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D96F625-24D0-4814-B9E7-3F2F3279D8AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
