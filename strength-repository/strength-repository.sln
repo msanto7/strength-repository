@@ -9,6 +9,10 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "strength-repository.web", "
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "strength-repository.Database", "strength-repository.Database\strength-repository.Database.sqlproj", "{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strength-repository.DataAccess.EFCore", "strength-repository.DataAccess.EFCore\strength-repository.DataAccess.EFCore.csproj", "{1D06FD17-6141-4288-A320-6191C1500272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strength-repository.Domain", "strength-repository.Domain\strength-repository.Domain.csproj", "{72C6B045-2BD1-44A7-9EC8-D9E9F13017BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E89BAD5B-452D-4CD7-B34D-B4B100A980B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1D06FD17-6141-4288-A320-6191C1500272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D06FD17-6141-4288-A320-6191C1500272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D06FD17-6141-4288-A320-6191C1500272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D06FD17-6141-4288-A320-6191C1500272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C6B045-2BD1-44A7-9EC8-D9E9F13017BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C6B045-2BD1-44A7-9EC8-D9E9F13017BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C6B045-2BD1-44A7-9EC8-D9E9F13017BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C6B045-2BD1-44A7-9EC8-D9E9F13017BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
