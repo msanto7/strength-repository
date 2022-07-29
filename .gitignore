@@ -4,14 +4,9 @@
 
 /strength-repository/.vs/
 /.vs
-/strength-repository/strength-repository.API/bin/
-/strength-repository/strength-repository.API/obj/
-/strength-repository/strength-repository.Database/bin/
-/strength-repository/strength-repository.Database/obj/
-/strength-repository/strength-repository.Domain/bin/
-/strength-repository/strength-repository.Domain/obj/
-/strength-repository/strength-repository.DataAccess.EFCore/bin/
-/strength-repository/strength-repository.DataAccess.EFCore/obj/
+*.obj
+**/bin/*
+**/obj/*
 *.jfm
 *.dbmdl
 /strength-repository/strength-repository.API/obj/Debug/net6.0/
