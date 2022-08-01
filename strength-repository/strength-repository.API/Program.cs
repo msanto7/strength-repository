@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using strength_repository.DataAccess.EFCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ApplicationContext>();
+builder.Services.AddDbContext<ApplicationContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+    b => b.MigrationsAssembly(typeof(ApplicationContext).Assembly.FullName)
+    ));
 
 var app = builder.Build();
 
